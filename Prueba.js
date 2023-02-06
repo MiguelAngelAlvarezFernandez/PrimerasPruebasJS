@@ -1,7 +1,6 @@
 let ElBody
 ElBody = document.querySelector("body")
-let MiPrimerParrafo
-MiPrimerParrafo = document.createElement("p")
+let MiPrimerParrafo = document.createElement("p")
 MiPrimerParrafo.innerText = "Lo que hay que hacer para poner una frase"
 ElBody.appendChild(MiPrimerParrafo)
 
@@ -11,3 +10,7 @@ MiprimerHeading.innerText = "A ver si sale mi primer heading"
 ElBody.appendChild(MiprimerHeading)
 
 console.log(MiprimerHeading)
+
+MiPrimerParrafo.innerText = "Y ahora a ver que sale"
+
+console.log(MiPrimerParrafo)
