@@ -14,3 +14,10 @@ console.log(MiprimerHeading)
 MiPrimerParrafo.innerText = "Y ahora a ver que sale"
 
 console.log(MiPrimerParrafo)
+
+function sayHiTo(name) {
+const hello = "Hi " + name
+}
+
+const pedroWelcome = sayHiTo("Pedro") // pedroWelcome === "Hi Pedro" 
+const anaWelcome = sayHiTo("Ana") // anaWelcome === "Hi Ana"
